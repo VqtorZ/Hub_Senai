@@ -1,0 +1,125 @@
+/* curso.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0dvb;
+  }
+
+  header {
+    background-color: rgb(220, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 7px ;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+
+  header a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  header h2 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  main {
+    margin-top: 20px;
+  }
+  
+  .intro {
+    text-align: center;
+  }
+  
+  .instructors {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .instructor {
+    text-align: center;
+    width: 45%;
+  }
+  
+  .instructor img {
+    width: 100%;
+    border-radius: 50%;
+    max-width: 150px;
+  }
+  
+  .instructor h4 {
+    margin: 10px 0 5px;
+  }
+  
+  .instructor ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  
+  .info {
+    margin-top: 20px;
+  }
+  
+  .info-block {
+    border: 1px solid black;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  .info-block h4 {
+    margin-top: 0;
+  }
+  
+  .certificados {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .cert-logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .cert-logos div {
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .cert-logos img {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  footer {
+    background-color: #e00000;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  footer p {
+    margin: 5px 0;
+  }
+  
+  .footerrr{
+  color: white;
+  
+  }
